@@ -5,6 +5,8 @@ import 'package:surf_practice_magic_ball/screen/widgets/magic_ball.dart';
 import 'package:surf_practice_magic_ball/screen/widgets/magic_ball_wrapper.dart';
 import 'package:surf_practice_magic_ball/theme.dart';
 
+
+//главный экран приложения
 class MagicBallScreen extends StatelessWidget {
   const MagicBallScreen({Key? key}) : super(key: key);
 

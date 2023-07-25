@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:surf_practice_magic_ball/screen/widgets/magic_ball_surface.dart';
 import 'package:surf_practice_magic_ball/screen/widgets/magic_ball_text.dart';
 
+//виджет шара
 class MagicBall extends StatelessWidget {
   const MagicBall({Key? key}) : super(key: key);
 

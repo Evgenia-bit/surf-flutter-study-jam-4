@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:surf_practice_magic_ball/adaptability_manager.dart';
 
+
+//виджет текста внизу экрана
 class BottomText extends StatelessWidget {
   const BottomText({Key? key}) : super(key: key);
 

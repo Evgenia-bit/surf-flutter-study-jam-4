@@ -5,6 +5,8 @@ import 'package:surf_practice_magic_ball/screen/magic_ball_view_model.dart';
 import 'package:surf_practice_magic_ball/screen/widgets/custom_animated_switched.dart';
 import 'package:surf_practice_magic_ball/theme.dart';
 
+
+//виджет тени шара
 class BottomShadow extends StatelessWidget {
   const BottomShadow({Key? key}) : super(key: key);
 

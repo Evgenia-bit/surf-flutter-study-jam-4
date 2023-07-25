@@ -4,6 +4,8 @@ import 'package:surf_practice_magic_ball/adaptability_manager.dart';
 import 'package:surf_practice_magic_ball/screen/magic_ball_view_model.dart';
 import 'package:surf_practice_magic_ball/screen/widgets/custom_animated_switched.dart';
 
+
+//виджет текста внутри шара
 class MagicBallText extends StatelessWidget {
   const MagicBallText({Key? key}) : super(key: key);
 

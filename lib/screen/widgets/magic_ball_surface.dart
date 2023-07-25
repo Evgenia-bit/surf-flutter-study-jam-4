@@ -4,6 +4,8 @@ import 'package:surf_practice_magic_ball/screen/magic_ball_view_model.dart';
 import 'package:surf_practice_magic_ball/screen/widgets/custom_animated_switched.dart';
 import 'package:surf_practice_magic_ball/theme.dart';
 
+
+//виджет поверхности шара
 class MagicBallSurface extends StatelessWidget {
   const MagicBallSurface({Key? key}) : super(key: key);
 

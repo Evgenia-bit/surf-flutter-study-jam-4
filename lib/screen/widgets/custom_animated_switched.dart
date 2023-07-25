@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+
+//виджет для анимированного переключения состояния шара
 class CustomAnimatedSwitched extends StatelessWidget {
   final Widget child;
 

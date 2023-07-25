@@ -7,6 +7,7 @@ import 'package:surf_practice_magic_ball/screen/widgets/bottom_ellipse.dart';
 import 'package:surf_practice_magic_ball/screen/widgets/bottom_shadow.dart';
 import 'package:surf_practice_magic_ball/screen/widgets/magic_ball.dart';
 
+//анимированная обертка шара
 class MagicBallWrapper extends StatefulWidget {
   const MagicBallWrapper({super.key});
 
@@ -16,22 +17,26 @@ class MagicBallWrapper extends StatefulWidget {
 
 class _MagicBallWrapperState extends State<MagicBallWrapper>
     with SingleTickerProviderStateMixin {
-  late AnimationController _offsetController;
-  late Animation<Offset> _offsetAnimation;
-  final _tween = Tween<Offset>(
-    begin: Offset.zero,
-    end: const Offset(0, .05),
-  );
+  late final AnimationController _offsetController;
+  late final Animation<Offset> _offsetAnimation;
+  late final Tween<Offset> _tween;
+  final _defaultAnimationDuration = const Duration(milliseconds: 1000);
+  final _shakingAnimationDuration = const Duration(milliseconds: 100);
+  final _defaultTweenEnd = const Offset(0, .05);
+  final _shakingTweenEnd = const Offset(.01, 0);
 
   @override
   void initState() {
     ShakeDetector.autoStart(
       onPhoneShake: () => context.read<MagicBallViewModel>().loadAnswer(),
     );
-
+    _tween = Tween<Offset>(
+      begin: Offset.zero,
+      end: _defaultTweenEnd,
+    );
     _offsetController = AnimationController(
       vsync: this,
-      duration: const Duration(milliseconds: 1000),
+      duration: _defaultAnimationDuration,
     )..repeat(reverse: true);
 
     _offsetAnimation = _tween.animate(CurvedAnimation(
@@ -45,13 +50,17 @@ class _MagicBallWrapperState extends State<MagicBallWrapper>
   @override
   void didChangeDependencies() {
     final model = context.watch<MagicBallViewModel>();
+
     if (model.ballState == MagicBallState.loading) {
-      _offsetController.duration = const Duration(milliseconds: 100);
-      _tween.end = const Offset(.01, 0);
+      //если идет загрузка, то включается анимация тряски шара
+      _offsetController.duration = _shakingAnimationDuration;
+      _tween.end = _shakingTweenEnd;
     } else {
-      _offsetController.duration = const Duration(milliseconds: 1000);
-      _tween.end = const Offset(0, .05);
+      //если загрузки нет, то включается дефолтная анимация (когда шар парит вверх-вниз)
+      _offsetController.duration = _defaultAnimationDuration;
+      _tween.end = _defaultTweenEnd;
     }
+
     _offsetController.repeat(reverse: true);
     super.didChangeDependencies();
   }
@@ -78,7 +87,7 @@ class _MagicBallWrapperState extends State<MagicBallWrapper>
               ),
             ),
           ),
-          const SizedBox(height: 50),
+          if(AdaptabilityManager.deviceType == DeviceType.mobile) const SizedBox(height: 50),
           Stack(
             alignment: Alignment.center,
             children: [
