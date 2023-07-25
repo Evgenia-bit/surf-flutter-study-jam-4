@@ -8,6 +8,7 @@ enum DeviceType {
   desktop;
 }
 
+//данный класс позволяет определять размеры элементов и текст внизу экрана для разных платформ
 class AdaptabilityManager {
   static DeviceType get deviceType {
     if (defaultTargetPlatform == TargetPlatform.iOS ||

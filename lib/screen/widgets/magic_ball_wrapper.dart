@@ -23,7 +23,8 @@ class _MagicBallWrapperState extends State<MagicBallWrapper>
   final _defaultAnimationDuration = const Duration(milliseconds: 1000);
   final _shakingAnimationDuration = const Duration(milliseconds: 100);
   final _defaultTweenEnd = const Offset(0, .05);
-  final _shakingTweenEnd = const Offset(.01, 0);
+  final _shakingTweenEnd = const Offset(.03, 0);
+
 
   @override
   void initState() {
@@ -31,7 +32,7 @@ class _MagicBallWrapperState extends State<MagicBallWrapper>
       onPhoneShake: () => context.read<MagicBallViewModel>().loadAnswer(),
     );
     _tween = Tween<Offset>(
-      begin: Offset.zero,
+      begin:  Offset.zero,
       end: _defaultTweenEnd,
     );
     _offsetController = AnimationController(
