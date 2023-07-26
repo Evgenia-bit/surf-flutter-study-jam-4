@@ -14,18 +14,17 @@
 
 # Демонстрация работы
 
-##Мобильные устройства
+## Мобильные устройства
 
-###Светлая тема
+### Светлая тема
 
-<img src="assets/mobile/succes_light.gif" height="400"></img>
-![Успешное получение ответа на мобильном устройстве, светлая тема](assets/mobile/succes_light.gif)
-![Ошибка при получении ответа на мобильном устройстве, светлая тема](assets/mobile/failed_light.gif)
+<img src="assets/mobile/succes_light.gif" height="500"></img>
+<img src="assets/mobile/failed_light.gif" height="500"></img>
 
-###Темная тема
+### Темная тема
 
-![Успешное получение ответа на мобильном устройстве, темная тема](assets/mobile/succes_dark.gif)
-![Ошибка при получении ответа на мобильном устройстве, темная тема](assets/mobile/failed_dark.gif)
+<img src="assets/mobile/succes_dark.gif" height="500"></img>
+<img src="assets/mobile/failed_dark.giff" height="500"></img>
 
 
 
