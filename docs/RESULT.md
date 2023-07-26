@@ -16,29 +16,29 @@
 
 ## Мобильные устройства
 
-<img src="assets/mobile/success_light.gif" height="500"></img>
-<img src="assets/mobile/failed_light.gif" height="500"></img>
+<img src="assets/mobile/success_light.gif" width="300"></img>
+<img src="assets/mobile/failed_light.gif" width="300"></img>
 
-<img src="assets/mobile/success_dark.gif" height="500"></img>
-<img src="assets/mobile/failed_dark.gif" height="500"></img>
+<img src="assets/mobile/success_dark.gif" width="300"></img>
+<img src="assets/mobile/failed_dark.gif" width="300"></img>
 
 ## Планшеты
 
-<img src="assets/tablet/success_light.gif" height="500"></img>
-<img src="assets/tablet/failed_light.gif" height="500"></img>
+<img src="assets/tablet/success_light.gif" width="300"></img>
+<img src="assets/tablet/failed_light.gif" width="300"></img>
 
 
-<img src="assets/tablet/success_dark.gif" height="500"></img>
-<img src="assets/tablet/failed_dark.gif" height="500"></img>
+<img src="assets/tablet/success_dark.gif" width="300"></img>
+<img src="assets/tablet/failed_dark.gif" width="300"></img>
 
 ## Веб-браузеры
 
-<img src="assets/web/success_light.gif" height="500"></img>
-<img src="assets/web/failed_light.gif" height="500"></img>
+<img src="assets/web/success_light.gif" width="300"></img>
+<img src="assets/web/failed_light.gif" width="300"></img>
 
 
-<img src="assets/web/success_dark.gif" height="500"></img>
-<img src="assets/web/failed_dark.gif" height="500"></img>
+<img src="assets/web/success_dark.gif" width="300"></img>
+<img src="assets/web/failed_dark.gif" width="300"></img>
 
 
 
