@@ -18,13 +18,38 @@
 
 ### Светлая тема
 
-<img src="assets/mobile/succes_light.gif" height="500"></img>
+<img src="assets/mobile/success_light.gif" height="500"></img>
 <img src="assets/mobile/failed_light.gif" height="500"></img>
 
 ### Темная тема
 
-<img src="assets/mobile/succes_dark.gif" height="500"></img>
-<img src="assets/mobile/failed_dark.giff" height="500"></img>
+<img src="assets/mobile/success_dark.gif" height="500"></img>
+<img src="assets/mobile/failed_dark.gif" height="500"></img>
+
+## Планшеты
+
+### Светлая тема
+
+<img src="assets/tablet/success_light.gif" height="600"></img>
+<img src="assets/tablet/failed_light.gif" height="600"></img>
+
+### Темная тема
+
+<img src="assets/tablet/success_dark.gif" height="700"></img>
+<img src="assets/tablet/failed_dark.gif" height="700"></img>
+
+
+## Веб-браузеры
+
+### Светлая тема
+
+<img src="assets/web/success_light.gif" height="600"></img>
+<img src="assets/web/failed_light.gif" height="600"></img>
+
+### Темная тема
+
+<img src="assets/web/success_dark.gif" height="700"></img>
+<img src="assets/web/failed_dark.gif" height="700"></img>
 
 
 
