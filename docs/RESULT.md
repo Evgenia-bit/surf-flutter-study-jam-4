@@ -24,17 +24,17 @@
 
 ## Планшеты
 
-<img src="assets/tablet/success_light.gif" width="250"></img>
-<img src="assets/tablet/failed_light.gif" width="250"></img>
+<img src="assets/tablet/success_light.gif" width="300"></img>
+<img src="assets/tablet/failed_light.gif" width="300"></img>
 
 
-<img src="assets/tablet/success_dark.gif" width="250"></img>
-<img src="assets/tablet/failed_dark.gif" width="250"></img>
+<img src="assets/tablet/success_dark.gif" width="300"></img>
+<img src="assets/tablet/failed_dark.gif" width="300"></img>
 
 ## Веб-браузеры
 
-<img src="assets/web/success_light.gif" width="300"></img>
-<img src="assets/web/failed_light.gif" width="300"></img>
+<img src="assets/web/success_light.gif" width="400"></img>
+<img src="assets/web/failed_light.gif" width="400"></img>
 
 
 <img src="assets/web/success_dark.gif" width="400"></img>
