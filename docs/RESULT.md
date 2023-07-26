@@ -16,11 +16,11 @@
 
 ## Мобильные устройства
 
-<img src="assets/mobile/success_light.gif" width="200"></img>
-<img src="assets/mobile/failed_light.gif" width="200"></img>
+<img src="assets/mobile/success_light.gif" width="230"></img>
+<img src="assets/mobile/failed_light.gif" width="230"></img>
 
-<img src="assets/mobile/success_dark.gif" width="300"></img>
-<img src="assets/mobile/failed_dark.gif" width="300"></img>
+<img src="assets/mobile/success_dark.gif" width="230"></img>
+<img src="assets/mobile/failed_dark.gif" width="230"></img>
 
 ## Планшеты
 
