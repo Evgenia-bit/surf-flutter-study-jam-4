@@ -27,3 +27,7 @@
 ![Ошибка при получении ответа на мобильном устройстве, темная тема](assets/mobile/failed_dark.gif)
 
 
+
+https://github.com/Evgenia-bit/surf-flutter-study-jam-4/assets/63193897/8d676533-375e-425f-bcaf-76bd5fadfb9b
+
+
