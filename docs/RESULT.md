@@ -24,8 +24,8 @@
 
 ## Планшеты
 
-<img src="assets/tablet/success_light.gif" width="250"></img>
-<img src="assets/tablet/failed_light.gif" width="250"></img>
+<img src="assets/tablet/success_light.gif" width="230"></img>
+<img src="assets/tablet/failed_light.gif" width="230"></img>
 
 
 <img src="assets/tablet/success_dark.gif" width="300"></img>
