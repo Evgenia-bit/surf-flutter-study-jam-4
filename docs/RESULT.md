@@ -15,7 +15,7 @@
 # Демонстрация работы
 ##Мобильные устройства
 ###Светлая тема
-<video src='assets/mobile/succes_light.mp4' width=180/>
+<video src='/assets/mobile/succes_light.mp4' width=180/>
 ![Успешное получение ответа на мобильном устройстве, светлая тема](assets/mobile/succes_light.mp4)
 ![Ошибка при получении ответа на мобильном устройстве, светлая тема](assets/mobile/failed_light.mp4)
 ###Темная тема
